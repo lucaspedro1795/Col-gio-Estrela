@@ -1,0 +1,38 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9 de abr de 2020, 10:05:57
+    Author     : Rosângela
+*/
+
+table td{
+    font-family: Roboto Condensed , sans-serif;
+    font-size: 15px;
+}
+
+table thead{
+    font-family: Roboto Condensed , sans-serif;
+    font-size: 15px;
+}
+
+.df{
+   background-color: silver;
+}
+
+.tudo{
+    font-weight: bold;
+}
+
+.md:hover{
+    background-color: darkblue;
+    color: white;
+}
+
+input #notas{
+    width: 10px;
+    height: 10px;
+    border: none;   
+}

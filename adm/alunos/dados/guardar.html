@@ -1,0 +1,43 @@
+<form action="edit.php" method="post">
+
+    <label for="name">1º Semestre: </label><input type="text" name="name" id="name" value="<?php echo $user['nome'] ?>">
+
+
+
+    <br><br>
+
+
+
+    <label for="matricula">Matricula: </label><input type="text" name="matricula" id="matricula" value="<?php echo $user['matricula'] ?>">
+
+   
+
+    <br><br>
+
+     
+
+    <label for="senha">Senha: </label><input type="text" name="senha" id="senha" value="<?php echo $user['senha'] ?>">
+
+
+
+    <br><br>
+
+
+
+    <label for="serie">Ano: </label><input type="text" name="serie" id="serie" value="<?php echo $user['serie'] ?>">
+
+
+
+    <br><br>
+
+
+
+    <input type="hidden" name="id" value="<?php echo $id ?>">
+
+
+
+    <button type="submit">Alterar</button>
+
+    <a href="pesquisar.php"><button type="button">Voltar</button></a>
+
+</form>

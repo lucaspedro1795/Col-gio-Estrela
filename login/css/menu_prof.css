@@ -1,0 +1,99 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16 de abr de 2020, 01:18:27
+    Author     : Rosângela
+*/
+
+.sidenav {
+    height: 350px;
+    width: 215px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-top: 150px;
+    margin-left: 130px;
+    display: block;
+    position: absolute;
+  }
+  
+ .navigation {
+  width: 215px;
+  font-family: Roboto Condensed , sans-serif; 
+}
+
+/* reset our lists to remove bullet points and padding */
+.mainmenu, .submenu_prof {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* make ALL links (main and submenu) have padding and background color */
+.mainmenu a {
+  display: block;
+  background-color: transparent;
+  text-decoration: none;
+  padding: 15px;
+  color: darkblue;
+}
+
+/* add hover behaviour */
+.mainmenu  a:hover {
+    background-color: darkblue;
+    border-radius: 50px 50px 50px 50px;
+    color: white
+}
+
+
+/* when hovering over a .mainmenu item,
+  display the submenu inside it.
+  we're changing the submenu's max-height from 0 to 200px;
+*/
+
+.mainmenu li:hover .submenu_prof {
+  display: block;
+  max-height: 200px;
+}
+
+/*
+  we now overwrite the background-color for .submenu links only.
+  CSS reads down the page, so code at the bottom will overwrite the code at the top.
+*/
+
+.submenu_prof a {
+  background-color: transparent;
+  color: white;
+}
+
+/* hover behaviour for links inside .submenu */
+.submenu_prof a:hover {
+  background-color: darkblue;
+}
+
+/* this is the initial state of all submenus.
+  we set it to max-height: 0, and hide the overflowed content.
+*/
+.submenu_prof {
+  overflow: hidden;
+  max-height: 0;
+  -webkit-transition: all 0.5s ease-out;
+  background-color: darkcyan;
+  border-radius: 20px 10px 10px 20px;
+  overflow-y: scroll;
+}
+
+.submenu_prof::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 0px 20px 20px 0px;
+    background-color: darkblue;
+}
+.submenu_prof::-webkit-scrollbar-button {height: 0px; };
+.submenu_prof::-webkit-scrollbar-thumb {background-color: white; border-radius: 10px 10px 10px 10px;};

@@ -1,0 +1,2 @@
+ErrorDocument 404 http://colegioestrela.rf.gd/404.html
+ErrorDocument 503 http://colegioestrela.rf.gd/503.html

@@ -1,0 +1,755 @@
+
+@media screen and (max-width: 360px) {
+
+    .top {
+        width: auto;
+        float: none;
+        position: fixed;
+    }
+
+    .sidenav {
+        display: none;
+
+    }
+
+    a {
+        font-size: 15px;
+    }
+
+
+    .result{
+        width: 340px;
+        float: left;
+        margin-left: 10px;
+        position: fixed;
+
+    }
+
+    .user{
+        float: left;
+        margin-left: 230px;
+    }
+
+    .logo{
+        margin-left: 5px;
+
+    }
+
+    .faq{ 
+        width: 100px; 
+        float: left;
+        margin-left: 10px;
+
+    }
+
+    .faq_1{
+        width: 200px;
+        float: left;
+        margin-left: 10px;
+
+    }
+
+    .faq_2{
+        width: 200px;
+        float: left;
+        margin-left: 10px;
+        height: 90px;
+    }
+
+    .tt{
+        width: 100px;
+
+    }
+
+    .bb{
+        width: 70px;
+        height: 70px;
+        float: left;
+        margin-left: -90px;
+        margin-top: 150px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 411px) {
+
+    .top {
+        width: auto;
+        float: none;
+        position: fixed;
+    }
+
+    .sidenav {
+        display: none;
+    }
+
+    a {
+        font-size: 15px;
+    }
+
+
+    .result{
+        width: 340px;
+        float: left;
+        position: relative;
+        margin-left: 10px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+    .top {
+        width: auto;
+        float: none;
+
+    }
+
+    .sidenav {
+        display: none;
+    }
+
+    a {
+        font-size: 24px;
+    }
+
+
+    .result{
+        width: 700px;
+        float: left;
+        position: relative;
+        margin-left: 10px;
+        max-width: 700px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 384px) {
+
+    .top {
+        width: auto;
+        float: none;
+        position: fixed;
+    }
+
+    .sidenav {
+        display: none;
+
+    }
+
+    a {
+        font-size: 15px;
+    }
+
+
+    .result{
+        width: 340px;
+        float: left;
+        margin-left: 10px;
+        position: absolute;
+
+    }
+
+    .user{
+        float: left;
+        margin-left: 230px;
+    }
+
+    .logo{
+        margin-left: 5px;
+
+    }
+
+    .faq{ 
+        width: 100px; 
+        float: left;
+        margin-left: 10px;
+
+    }
+
+    .faq_1{
+        width: 200px;
+        float: left;
+        margin-left: 10px;
+
+    }
+
+    .faq_2{
+        width: 200px;
+        float: left;
+        margin-left: 10px;
+
+    }
+
+    .tt{
+        width: 100px;
+
+    }
+
+    .bb{
+        width: 70px;
+        height: 70px;
+        float: left;
+        margin-left: -90px;
+        margin-top: 150px;
+
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 640px) {
+
+    .top {
+        width: auto;
+        float: none;
+        position: fixed;
+    }
+
+    .sidenav {
+        display: none;
+
+    }
+
+    a {
+        font-size: 15px;
+    }
+
+
+    .result{
+        width: 500px;
+        float: left;
+        margin-left: 10px;
+    }
+
+    .user{
+        float: left;
+        margin-left: 230px;
+    }
+
+    .logo{
+        margin-left: 5px;
+
+    }
+
+    .faq{ 
+        width: 100px; 
+        float: left;
+        margin-left: 10px;
+
+    }
+
+    .faq_1{
+        width: 200px;
+        float: left;
+        margin-left: 10px;
+
+    }
+
+    .faq_2{
+        width: 200px;
+        float: left;
+        margin-left: 10px;
+
+    }
+
+    .tt{
+        width: 100px;
+
+    }
+
+    .bb{
+        width: 70px;
+        height: 70px;
+        float: left;
+        margin-left: -90px;
+        margin-top: 150px;
+
+    }
+
+
+}
+
+
+@media screen and (max-width: 412px) {
+
+    .top {
+        width: auto;
+        float: none;
+        position: fixed;
+    }
+
+    .sidenav {
+        display: none;
+
+    }
+
+    a {
+        font-size: 15px;
+    }
+
+
+    .result{
+        width: 340px;
+        float: left;
+        margin-left: 10px;
+        position: absolute;
+
+    }
+
+    .user{
+        float: left;
+        margin-left: 230px;
+    }
+
+    .logo{
+        margin-left: 5px;
+
+    }
+
+    .faq{ 
+        width: 100px; 
+        float: left;
+        margin-left: 10px;
+
+    }
+
+    .faq_1{
+        width: 200px;
+        float: left;
+        margin-left: 10px;
+
+    }
+
+    .faq_2{
+        width: 200px;
+        float: left;
+        margin-left: 10px;
+
+    }
+
+    .tt{
+        width: 100px;
+
+    }
+
+    .bb{
+        width: 70px;
+        height: 70px;
+        float: left;
+        margin-left: -90px;
+        margin-top: 150px;
+
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 320px) {
+
+    .top {
+        width: auto;
+        float: none;
+        position: fixed;
+    }
+
+    .sidenav {
+        display: none;
+    }
+
+    a {
+        font-size: 15px;
+    }
+
+
+    .result{
+        width: 340px;
+        float: left;
+        margin-left: 10px;
+        position: absolute;
+
+    }
+
+    .user{
+        float: left;
+        margin-left: 230px;
+    }
+
+    .logo{
+        margin-left: 5px;
+
+    }
+
+    .faq{ 
+        width: 100px; 
+        float: left;
+        margin-left: 10px;
+
+    }
+
+    .faq_1{
+        width: 200px;
+        float: left;
+        margin-left: 10px;
+
+    }
+
+    .faq_2{
+        width: 200px;
+        float: left;
+        margin-left: 10px;
+
+    }
+
+    .tt{
+        width: 100px;
+
+    }
+
+    .bb{
+        width: 70px;
+        height: 70px;
+        float: left;
+        margin-left: -90px;
+        margin-top: 150px;
+
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 375px) {
+
+    .top {
+        width: auto;
+        float: none;
+        position: fixed;
+    }
+
+    .sidenav {
+        display: none;
+
+    }
+
+    a {
+        font-size: 15px;
+    }
+
+
+    .result{
+        width: 340px;
+        float: left;
+        margin-left: 10px;
+        position: absolute;
+
+    }
+
+    .user{
+        float: left;
+        margin-left: 230px;
+    }
+
+    .logo{
+        margin-left: 5px;
+
+    }
+
+    .faq{ 
+        width: 100px; 
+        float: left;
+        margin-left: 10px;
+
+    }
+
+    .faq_1{
+        width: 200px;
+        float: left;
+        margin-left: 10px;
+
+    }
+
+    .faq_2{
+        width: 200px;
+        float: left;
+        margin-left: 10px;
+
+    }
+
+    .tt{
+        width: 100px;
+
+    }
+
+    .bb{
+        width: 70px;
+        height: 70px;
+        float: left;
+        margin-left: -90px;
+        margin-top: 150px;
+
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 414px) {
+
+    .top {
+        width: auto;
+        float: none;
+        position: fixed;
+    }
+
+    .sidenav {
+        display: none;
+
+    }
+
+    a {
+        font-size: 15px;
+    }
+
+
+    .result{
+        width: 340px;
+        float: left;
+        margin-left: 10px;
+        position: absolute;
+
+    }
+
+    .user{
+        float: left;
+        margin-left: 230px;
+    }
+
+    .logo{
+        margin-left: 5px;
+
+    }
+
+    .faq{ 
+        width: 100px; 
+        float: left;
+        margin-left: 10px;
+
+    }
+
+    .faq_1{
+        width: 200px;
+        float: left;
+        margin-left: 10px;
+
+    }
+
+    .faq_2{
+        width: 200px;
+        float: left;
+        margin-left: 10px;
+
+    }
+
+    .tt{
+        width: 100px;
+
+    }
+
+    .bb{
+        width: 70px;
+        height: 70px;
+        float: left;
+        margin-left: -90px;
+        margin-top: 150px;
+
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .top {
+        width: auto;
+        float: none;
+        position: fixed;
+    }
+
+    .sidenav {
+        display: none;
+
+    }
+
+    a {
+        font-size: 15px;
+    }
+
+
+    .result{
+        width: 340px;
+        float: left;
+        margin-left: 10px;
+        position: absolute;
+
+    }
+
+    .user{
+        float: left;
+        margin-left: 230px;
+    }
+
+    .logo{
+        margin-left: 5px;
+
+    }
+
+    .faq{ 
+        width: 100px; 
+        float: left;
+        margin-left: 10px;
+
+    }
+
+    .faq_1{
+        width: 200px;
+        float: left;
+        margin-left: 10px;
+
+    }
+
+    .faq_2{
+        width: 200px;
+        float: left;
+        margin-left: 10px;
+
+    }
+
+    .tt{
+        width: 100px;
+
+    }
+
+    .bb{
+        width: 70px;
+        height: 70px;
+        float: left;
+        margin-left: -90px;
+        margin-top: 150px;
+
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .top {
+        width: auto;
+        float: none;
+        position: fixed;
+    }
+
+    .sidenav {
+        display: none;
+
+    }
+
+    a {
+        font-size: 15px;
+    }
+
+
+    .result{
+        width: 340px;
+        float: left;
+        margin-left: 10px;
+        position: absolute;
+
+    }
+
+    .user{
+        float: left;
+        margin-left: 230px;
+    }
+
+    .logo{
+        margin-left: 5px;
+
+    }
+
+    .faq{ 
+        width: 100px; 
+        float: left;
+        margin-left: 10px;
+
+    }
+
+    .faq_1{
+        width: 200px;
+        float: left;
+        margin-left: 10px;
+
+    }
+
+    .faq_2{
+        width: 200px;
+        float: left;
+        margin-left: 10px;
+
+    }
+
+    .tt{
+        width: 100px;
+
+    }
+
+    .bb{
+        width: 70px;
+        height: 70px;
+        float: left;
+        margin-left: -90px;
+        margin-top: 150px;
+
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 1440px) {
+
+    .top {
+        position: fixed;
+    }
+
+}
+
+
+@media screen and (max-width: 1280px) {
+
+    .top {
+        position: fixed;
+    }
+
+}
+
+
